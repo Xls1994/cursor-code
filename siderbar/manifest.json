@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "DeepSeek Chat 侧边栏",
+  "version": "1.0",
+  "description": "打开DeepSeek Chat侧边栏",
+  "permissions": ["sidePanel"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  }
+}

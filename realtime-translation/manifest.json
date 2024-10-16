@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "即时翻译插件",
+  "version": "1.0",
+  "description": "选中文字自动翻译为英文",
+  "permissions": ["activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}

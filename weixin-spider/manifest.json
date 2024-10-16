@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "微信文章提取器",
+  "version": "1.0",
+  "description": "提取微信公众号文章的正文内容",
+  "permissions": ["activeTab", "scripting", "downloads", "storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://mp.weixin.qq.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}

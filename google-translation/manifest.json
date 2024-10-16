@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "谷歌翻译插件",
+  "version": "1.0",
+  "description": "选中文字并右键翻译成英文",
+  "permissions": ["contextMenus"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}

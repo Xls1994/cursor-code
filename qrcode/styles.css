@@ -1,0 +1,48 @@
+#qr-container {
+  position: fixed;
+  left: 25px;
+  bottom: 25px;
+  width: 64px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  z-index: 9999;
+  transition: all 0.3s ease;
+}
+
+#qr-container:hover {
+  cursor: pointer;
+}
+
+#logo-container {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#qr-code {
+  width: 256px;
+  height: 256px;
+  margin-bottom: 10px;
+}
+
+#site-name, #page-title {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#qr-logo {
+  max-width: 64px;
+  max-height: 64px;
+}
+
+#qr-container.expanded {
+  width: 256px;
+}
