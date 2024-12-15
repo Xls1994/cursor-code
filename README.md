@@ -1,5 +1,5 @@
 # cursor-code
-使用 Cursor 生成一些基础代码；
+使用 Cursor 生成一些基础的示例代码；
 
 ## 谷歌插件
 * sidebar 侧边栏助手
