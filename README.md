@@ -12,3 +12,4 @@
 * pycode
   * snake 贪吃蛇
   * weibo 爬取微博热榜
+  * img-search 图像相似度检索系统
