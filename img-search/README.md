@@ -39,18 +39,19 @@ pip install Pillow
 ```
 
 ### 3.项目结构
-
-img_search/
-├── static/          # 静态文件目录
-│   └── images/      # 图片存储目录
-├── templates/       # HTML 模板
-│   └── index.html   # 主页面
-├── utils/          # 工具类
-│   ├── feature_extractor.py  # 特征提取器
-│   ├── image_search.py       # 图像搜索核心
-│   └── database.py          # 数据库操作
-├── app.py          # Flask 应用主文件
-└── test.py         # 测试脚本
+```plaintext
+img_search/  
+├── static/          # 静态文件目录  
+│   └── images/      # 图片存储目录  
+├── templates/       # HTML 模板  
+│   └── index.html   # 主页面  
+├── utils/          # 工具类  
+│   ├── feature_extractor.py  # 特征提取器  
+│   ├── image_search.py       # 图像搜索核心  
+│   └── database.py          # 数据库操作  
+├── app.py          # Flask 应用主文件  
+└── test.py         # 测试脚本  
+```
 
 ## 使用说明
 
